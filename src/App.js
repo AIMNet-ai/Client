@@ -14,7 +14,6 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Link to="/login">Login</Link>
         <Switch>
           <Route exact path="/" render={(props) => <Home {...props} />} />
           <Route exact path="/dashboard" component={Dashboard} />
